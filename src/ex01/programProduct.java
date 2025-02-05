@@ -14,7 +14,7 @@ public class programProduct {
         System.out.println("Enter product data: ");
 
         System.out.println("Name: ");
-        product.name = sc.next();
+        product.name = sc.next(); // Salvando o input do usuario diretamento no atibuto da classe product
 
         System.out.println("Price: ");
         product.price = sc.nextDouble();
