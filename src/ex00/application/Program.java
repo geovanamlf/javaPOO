@@ -1,9 +1,9 @@
-package application;
+package ex00.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
+import ex00.application.entities.Triangle;
 
 public class Program {
 

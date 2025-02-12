@@ -1,4 +1,4 @@
-package entities;
+package ex00.application.entities;
 
 public class Triangle {
 
