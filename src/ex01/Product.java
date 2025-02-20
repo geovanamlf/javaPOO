@@ -3,9 +3,9 @@ package ex01;
 public class Product {
 
     //Atributos
-    public String name;
-    public double price;
-    public int quantity;
+    private String name;
+    private double price;
+    private int quantity;
 
     public Product(String name, double price, int quantity) {
         this.name = name;
@@ -16,6 +16,29 @@ public class Product {
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
+    }
+
+
+    //Metodos getters e setters. Para chama-los quando quiser alterar um atributo da classe que esta protegido.
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
     }
 
     public double totalValueInStock() { // Metodo para calcular o valor total em estoque.
