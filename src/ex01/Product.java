@@ -18,8 +18,8 @@ public class Product {
         this.price = price;
     }
 
-
     //Metodos getters e setters. Para chama-los quando quiser alterar um atributo da classe que esta protegido.
+
 
     public String getName() {
         return name;
