@@ -42,6 +42,8 @@ public class ProgramaConta {
         double withdrawValue = sc.nextDouble();
         conta.withdraw(withdrawValue);
 
+        conta.setAccountHolder("Geovana Lemos"); // Mudando o accountholder usando o metodo set.
+
         conta.showData();
 
         sc.close();
